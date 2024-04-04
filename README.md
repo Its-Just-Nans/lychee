@@ -465,14 +465,16 @@ Options:
           Output file of status report
 
       --mode <MODE>
-          Set the output display mode. Determines how results are presented in the terminal (color, plain, emoji)
+          Set the output display mode. Determines how results are presented in the terminal
           
           [default: color]
+          [possible values: plain, color, emoji]
 
   -f, --format <FORMAT>
-          Output format of final status report (compact, detailed, json, markdown)
+          Output format of final status report
           
           [default: compact]
+          [possible values: compact, detailed, json, markdown, raw]
 
       --require-https
           When HTTPS is available, treat HTTP links as errors
@@ -484,6 +486,7 @@ Options:
           Print help (see a summary with '-h')
 
   -V, --version
+          Print version
 ```
 
 ### Exit codes
